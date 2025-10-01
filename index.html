@@ -7,17 +7,9 @@
      <link rel="icon" type="image/png" sizes="32x32" href="./icon.png">
     <!-- 파비콘 이미지 연결 -->
     <style>
-        a{
-            color: inherit;
-            text-decoration: none;
-        }
-        ul{
-            list-style: none;
-        }
-         body {
-            background-color: rgba(250, 235, 215, 0.212);
+        body {
+         background-color: #f5f4f07e;
          }
-    
         div{
             width: 1320px;
             margin: 0px auto;
@@ -25,14 +17,22 @@
         div img{
             display: block;
         }
+        .top {
+            position: fixed;
+            bottom: 50px;
+            right: 50px;
+            display: none;
+            z-index: 8;
+}
 
     </style>
 </head>
 <body>
+   <a href="#wrap" class="top"><img src="./TOP2.png" alt="top버튼"></a>
     <div id="wrap">
-        <img src="./WEB.png" alt="01">
+        <img src="./web.jpg" alt="01">
     </div>
-    <a href="#wrap" class="top"><img src="./TOP2.png" alt="top버튼"></a>
+    
     <script src="./js/jquery-3.4.1.min.js"></script>
     <script src="./js/script.js"></script>
 </body>
